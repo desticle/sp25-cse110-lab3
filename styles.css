@@ -81,3 +81,23 @@ img {
 body {
     font-family: montserrat;
 }
+
+#id {
+    color: rgb(32, 32, 157);
+    font-size: 1.5em;
+}
+
+.class {
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+input[type="checkbox"] {
+    accent-color: rgb(9, 0, 128);
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
