@@ -101,3 +101,31 @@ input[type="checkbox"] {
 h1, h2, h3 {
     text-transform: uppercase;
 }
+
+header h1{
+    border-color: blue;
+}
+
+main > div {
+    padding: 10px;
+}
+
+h2 ~ ul {
+    background-color: #89a628;
+}
+
+h3 + ul {
+    border: 1px dashed rgb(143, 12, 95);
+}
+
+h2.class {
+    text-shadow: 2px 2px 2px rgba(8, 44, 163, 0.5);
+}
+
+main:has(ol) {
+    border: 3px solid rgb(15, 83, 135);
+}
+
+footer form {
+    background-color: #2e1919;
+}
